@@ -12,7 +12,7 @@ Baixe e execute automaticamente a versão mais recente pelo PowerShell.
 2. Copie e cole o comando abaixo:
 
 ```powershell
-& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/michel-anglus/Win11Debloat/master/Get-PTBR.ps1")))
+& ([scriptblock]::Create((irm "https://win11.anglus.com.br/Get-PTBR.ps1")))
 ```
 
 3. Aguarde o download automático.
