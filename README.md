@@ -21,14 +21,6 @@ Baixe e execute automaticamente a versão mais recente pelo PowerShell.
 
 > O comando sempre baixa a versão mais recente publicada na branch `master`.
 
-### Com domínio próprio
-
-Depois que o instalador for hospedado em `win11.anglus.com.br`, o comando poderá ficar ainda menor:
-
-```powershell
-& ([scriptblock]::Create((irm "https://win11.anglus.com.br/")))
-```
-
 ## Método tradicional
 
 <details>
