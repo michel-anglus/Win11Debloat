@@ -139,5 +139,3 @@ Este projeto utiliza e preserva o motor do **Win11Debloat**, criado por **Raphir
 - Projeto original: Raphire/Win11Debloat
 - Edição brasileira: Michel Anglus
 - Licença: MIT
-
-Os avisos de copyright e licença do projeto original devem permanecer em qualquer redistribuição.
