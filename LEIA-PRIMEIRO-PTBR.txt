@@ -1,0 +1,11 @@
+WIN11DEBLOAT BRASIL — INSTALAÇÃO
+
+1. Extraia todo o conteúdo deste ZIP.
+2. Execute o arquivo INSTALAR-PTBR.ps1 com o PowerShell.
+3. Informe a pasta do seu repositório Win11Debloat.
+4. Após a instalação, execute Run.bat.
+
+A edição brasileira não substitui o motor original Win11Debloat.ps1.
+Ela adiciona uma interface 100% em português e envia a saída técnica para a pasta Logs.
+
+O instalador cria backup dos arquivos README.md, Run.bat e Win11Debloat-PTBR.ps1 antes de substituí-los.
