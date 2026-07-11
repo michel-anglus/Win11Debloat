@@ -4,6 +4,8 @@ Uma edição brasileira do Win11Debloat com interface gráfica em **português d
 
 O Win11Debloat Brasil permite remover aplicativos desnecessários, reduzir telemetria, desativar anúncios e sugestões, controlar recursos de inteligência artificial e personalizar o Windows 11 sem precisar alterar cada configuração manualmente.
 
+<img width="1123" height="808" alt="tela1" src="https://github.com/user-attachments/assets/ab744e4c-1f39-41a9-9315-02852fe9f983" />
+
 ## Método rápido
 
 Baixe e execute automaticamente a versão mais recente pelo PowerShell.
