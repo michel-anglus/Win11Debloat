@@ -3,8 +3,6 @@
 # Edição brasileira: Michel Anglus
 # Repositório: https://github.com/michel-anglus/Win11Debloat
 
-[CmdletBinding()]
-param()
 
 $ErrorActionPreference = 'Stop'
 
@@ -147,3 +145,4 @@ finally {
 Write-Host ""
 Write-Host "Win11Debloat Brasil encerrado." -ForegroundColor Green
 Write-Host ""
+
