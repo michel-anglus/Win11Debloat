@@ -1,0 +1,767 @@
+{
+  "Versao": "1.0",
+  "Idioma": "pt-BR",
+  "Recursos": [
+    {
+      "Grupo": "Aplicativos",
+      "Titulo": "Remover aplicativos pré-instalados recomendados",
+      "Descricao": "Remove aplicativos promocionais e desnecessários incluídos no Windows.",
+      "Tokens": [
+        "-RemoveApps",
+        "-Apps",
+        "Default"
+      ],
+      "Padrao": true,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aplicativos",
+      "Titulo": "Remover aplicativos e componentes do Xbox",
+      "Descricao": "Remove aplicativos de jogos do Xbox e componentes relacionados.",
+      "Tokens": [
+        "-RemoveGamingApps"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aplicativos",
+      "Titulo": "Remover aplicativos adicionais da HP",
+      "Descricao": "Remove programas pré-instalados em computadores HP.",
+      "Tokens": [
+        "-RemoveHPApps"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aplicativos",
+      "Titulo": "Desativar gravação de jogos e da tela pelo Xbox",
+      "Descricao": "Desativa o Game DVR e a gravação automática em segundo plano.",
+      "Tokens": [
+        "-DisableDVR"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aplicativos",
+      "Titulo": "Desativar integração da Barra de Jogos do Xbox",
+      "Descricao": "Desativa atalhos e integrações da Barra de Jogos.",
+      "Tokens": [
+        "-DisableGameBarIntegration"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar telemetria, diagnósticos e anúncios personalizados",
+      "Descricao": "Reduz a coleta de dados, o histórico de atividades e o rastreamento para publicidade.",
+      "Tokens": [
+        "-DisableTelemetry"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar sugestões, dicas e anúncios do Windows",
+      "Descricao": "Remove sugestões promocionais e conteúdos recomendados em diversas áreas do sistema.",
+      "Tokens": [
+        "-DisableSuggestions"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar serviços de localização",
+      "Descricao": "Desativa a localização do Windows e o acesso de aplicativos à localização.",
+      "Tokens": [
+        "-DisableLocationServices"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar o recurso Localizar meu dispositivo",
+      "Descricao": "Interrompe o rastreamento usado para localizar o computador.",
+      "Tokens": [
+        "-DisableFindMyDevice"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar dicas e destaques na tela de bloqueio",
+      "Descricao": "Remove conteúdos promocionais e sugestões da tela de bloqueio.",
+      "Tokens": [
+        "-DisableLockscreenTips"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar o Windows em Destaque na área de trabalho",
+      "Descricao": "Remove a opção de papel de parede Windows em Destaque.",
+      "Tokens": [
+        "-DisableDesktopSpotlight"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Remover anúncios, sugestões e notícias do Microsoft Edge",
+      "Descricao": "Reduz conteúdos promocionais e o feed de notícias do navegador.",
+      "Tokens": [
+        "-DisableEdgeAds"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Desativar recursos promocionais do navegador Brave",
+      "Descricao": "Desativa notícias, criptomoedas, recompensas e recursos promocionais do Brave.",
+      "Tokens": [
+        "-DisableBraveBloat"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Ocultar anúncios do Microsoft 365 nas Configurações",
+      "Descricao": "Remove banners e ofertas do Microsoft 365 da página inicial das Configurações.",
+      "Tokens": [
+        "-DisableSettings365Ads"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Privacidade",
+      "Titulo": "Ocultar a página inicial das Configurações",
+      "Descricao": "Abre as Configurações diretamente nas categorias, sem a página promocional inicial.",
+      "Tokens": [
+        "-DisableSettingsHome"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar o Microsoft Copilot",
+      "Descricao": "Desativa e remove integrações do Copilot no Windows.",
+      "Tokens": [
+        "-DisableCopilot"
+      ],
+      "Padrao": true,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar o Windows Recall",
+      "Descricao": "Desativa o recurso Recall em computadores compatíveis.",
+      "Tokens": [
+        "-DisableRecall"
+      ],
+      "Padrao": true,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar o recurso Clique para Fazer",
+      "Descricao": "Desativa a análise de textos e imagens pelo recurso Clique para Fazer.",
+      "Tokens": [
+        "-DisableClickToDo"
+      ],
+      "Padrao": true,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Impedir inicialização automática do serviço de IA",
+      "Descricao": "Evita que o serviço de inteligência artificial do Windows seja iniciado automaticamente.",
+      "Tokens": [
+        "-DisableAISvcAutoStart"
+      ],
+      "Padrao": true,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar recursos de IA do Paint",
+      "Descricao": "Desativa funções de geração e edição por IA no Paint.",
+      "Tokens": [
+        "-DisablePaintAI"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar recursos de IA do Bloco de Notas",
+      "Descricao": "Desativa funções de escrita assistida por IA no Bloco de Notas.",
+      "Tokens": [
+        "-DisableNotepadAI"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Inteligência artificial",
+      "Titulo": "Desativar recursos de IA do Microsoft Edge",
+      "Descricao": "Desativa integrações de inteligência artificial do navegador Edge.",
+      "Tokens": [
+        "-DisableEdgeAI"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Restaurar o menu de contexto clássico do Windows 10",
+      "Descricao": "Mostra diretamente o menu completo ao clicar com o botão direito.",
+      "Tokens": [
+        "-RevertContextMenu"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar a bandeja de arrastar para compartilhar",
+      "Descricao": "Desativa a interface exibida ao arrastar arquivos para a parte superior da tela.",
+      "Tokens": [
+        "-DisableDragTray"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar aceleração do mouse",
+      "Descricao": "Desativa o recurso Aprimorar precisão do ponteiro.",
+      "Tokens": [
+        "-DisableMouseAcceleration"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar atalho das Teclas de Aderência",
+      "Descricao": "Impede a abertura acidental das Teclas de Aderência ao pressionar Shift repetidamente.",
+      "Tokens": [
+        "-DisableStickyKeys"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar limpeza automática do Sensor de Armazenamento",
+      "Descricao": "Evita que o Windows remova arquivos automaticamente pelo Sensor de Armazenamento.",
+      "Tokens": [
+        "-DisableStorageSense"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar Inicialização Rápida",
+      "Descricao": "Força um desligamento completo do Windows.",
+      "Tokens": [
+        "-DisableFastStartup"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Impedir criptografia automática do dispositivo",
+      "Descricao": "Evita a ativação automática do BitLocker. Não descriptografa unidades já protegidas.",
+      "Tokens": [
+        "-DisableBitlockerAutoEncryption"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": true
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar rede durante o modo de espera moderno",
+      "Descricao": "Pode reduzir o consumo de bateria durante o modo de espera.",
+      "Tokens": [
+        "-DisableModernStandbyNetworking"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Não receber atualizações assim que forem lançadas",
+      "Descricao": "Desativa a opção de receber atualizações antecipadamente.",
+      "Tokens": [
+        "-DisableUpdateASAP"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Impedir reinicialização automática após atualizações",
+      "Descricao": "Evita reinicializações automáticas enquanto houver um usuário conectado.",
+      "Tokens": [
+        "-PreventUpdateAutoReboot"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Sistema e atualizações",
+      "Titulo": "Desativar compartilhamento de atualizações com outros computadores",
+      "Descricao": "Desativa a Otimização de Entrega entre computadores.",
+      "Tokens": [
+        "-DisableDeliveryOptimization"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aparência",
+      "Titulo": "Ativar modo escuro no sistema e nos aplicativos",
+      "Descricao": "Ativa o tema escuro do Windows.",
+      "Tokens": [
+        "-EnableDarkMode"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aparência",
+      "Titulo": "Desativar efeitos de transparência",
+      "Descricao": "Reduz efeitos visuais e pode melhorar o desempenho em computadores modestos.",
+      "Tokens": [
+        "-DisableTransparency"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Aparência",
+      "Titulo": "Desativar animações e efeitos visuais",
+      "Descricao": "Reduz animações da interface para melhorar a agilidade.",
+      "Tokens": [
+        "-DisableAnimations"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Desativar pesquisa da Web e integração do Bing",
+      "Descricao": "Mantém a pesquisa do Windows focada em arquivos, aplicativos e configurações locais.",
+      "Tokens": [
+        "-DisableBing"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Ocultar sugestões de aplicativos da Microsoft Store",
+      "Descricao": "Remove sugestões da loja nos resultados da pesquisa.",
+      "Tokens": [
+        "-DisableStoreSearchSuggestions"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Desativar destaques da pesquisa",
+      "Descricao": "Remove conteúdo dinâmico e promocional da caixa de pesquisa.",
+      "Tokens": [
+        "-DisableSearchHighlights"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Desativar histórico local de pesquisa",
+      "Descricao": "Impede que o Windows mantenha o histórico das pesquisas locais.",
+      "Tokens": [
+        "-DisableSearchHistory"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Ocultar a seção Recomendado do Menu Iniciar",
+      "Descricao": "Reduz a área de arquivos e aplicativos recomendados.",
+      "Tokens": [
+        "-DisableStartRecommended"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Ocultar a seção Todos os aplicativos",
+      "Descricao": "Oculta a lista Todos os aplicativos. Isso pode dificultar a localização de programas instalados.",
+      "Tokens": [
+        "-DisableStartAllApps"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": true
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Desativar integração do Vincular ao Celular",
+      "Descricao": "Remove a integração de dispositivos móveis do Menu Iniciar.",
+      "Tokens": [
+        "-DisableStartPhoneLink"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Menu Iniciar e pesquisa",
+      "Titulo": "Limpar aplicativos fixados no Menu Iniciar",
+      "Descricao": "Remove os atalhos fixados atualmente no Menu Iniciar.",
+      "Tokens": [
+        "-ClearStart"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": true
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Alinhar ícones da barra de tarefas à esquerda",
+      "Descricao": "Usa o alinhamento tradicional dos ícones.",
+      "Tokens": [
+        "-TaskbarAlignLeft"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Ocultar pesquisa da barra de tarefas",
+      "Descricao": "Remove a caixa ou o ícone de pesquisa da barra de tarefas.",
+      "Tokens": [
+        "-HideSearchTb"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Ocultar botão Visão de Tarefas",
+      "Descricao": "Remove o botão Visão de Tarefas da barra.",
+      "Tokens": [
+        "-HideTaskview"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Desativar Widgets",
+      "Descricao": "Desativa Widgets na barra de tarefas e na tela de bloqueio.",
+      "Tokens": [
+        "-DisableWidgets"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Ocultar ícone de conversa ou reunião",
+      "Descricao": "Remove o ícone de conversa da barra de tarefas.",
+      "Tokens": [
+        "-HideChat"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Ativar opção Finalizar tarefa no menu da barra",
+      "Descricao": "Adiciona uma opção para encerrar aplicativos diretamente pela barra de tarefas.",
+      "Tokens": [
+        "-EnableEndTask"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Barra de tarefas",
+      "Titulo": "Ativar clique na última janela utilizada",
+      "Descricao": "Permite alternar entre janelas abertas clicando repetidamente no ícone do aplicativo.",
+      "Tokens": [
+        "-EnableLastActiveClick"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Mostrar extensões de arquivos conhecidos",
+      "Descricao": "Exibe extensões como .exe, .pdf, .jpg e .docx.",
+      "Tokens": [
+        "-ShowKnownFileExt"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Mostrar arquivos, pastas e unidades ocultas",
+      "Descricao": "Exibe itens marcados como ocultos.",
+      "Tokens": [
+        "-ShowHiddenFolders"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Abrir o Explorador em Este Computador",
+      "Descricao": "Altera a página inicial padrão do Explorador.",
+      "Tokens": [
+        "-ExplorerToThisPC"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar unidades removíveis duplicadas",
+      "Descricao": "Mantém a unidade removível apenas dentro de Este Computador.",
+      "Tokens": [
+        "-HideDupliDrive"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Adicionar pastas comuns em Este Computador",
+      "Descricao": "Adiciona Área de Trabalho, Downloads, Documentos e outras pastas.",
+      "Tokens": [
+        "-AddFoldersToThisPC"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar OneDrive do painel de navegação",
+      "Descricao": "Oculta o atalho do OneDrive sem desinstalar o aplicativo.",
+      "Tokens": [
+        "-HideOnedrive"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar pasta Objetos 3D",
+      "Descricao": "Remove a pasta Objetos 3D do Explorador.",
+      "Tokens": [
+        "-Hide3dObjects"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar pasta Música",
+      "Descricao": "Remove a pasta Música do painel de navegação.",
+      "Tokens": [
+        "-HideMusic"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar opção Incluir na biblioteca",
+      "Descricao": "Remove a opção do menu de contexto.",
+      "Tokens": [
+        "-HideIncludeInLibrary"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar opção Conceder acesso a",
+      "Descricao": "Remove a opção do menu de contexto.",
+      "Tokens": [
+        "-HideGiveAccessTo"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Ocultar opção Compartilhar",
+      "Descricao": "Remove a opção Compartilhar do menu de contexto.",
+      "Tokens": [
+        "-HideShare"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Explorador de Arquivos",
+      "Titulo": "Mostrar letras das unidades antes do nome",
+      "Descricao": "Exibe, por exemplo, C: antes do nome da unidade.",
+      "Tokens": [
+        "-ShowDriveLettersFirst"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Multitarefa",
+      "Titulo": "Desativar ajuste automático de janelas",
+      "Descricao": "Desativa o encaixe automático de janelas nas bordas da tela.",
+      "Tokens": [
+        "-DisableWindowSnapping"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Multitarefa",
+      "Titulo": "Desativar sugestões do Assistente de Ajuste",
+      "Descricao": "Remove sugestões de outras janelas durante o encaixe.",
+      "Tokens": [
+        "-DisableSnapAssist"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Multitarefa",
+      "Titulo": "Desativar sugestões de layouts de ajuste",
+      "Descricao": "Remove sugestões ao passar sobre maximizar ou arrastar uma janela ao topo.",
+      "Tokens": [
+        "-DisableSnapLayouts"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Multitarefa",
+      "Titulo": "Não mostrar abas do navegador no Alt + Tab",
+      "Descricao": "Mostra apenas janelas abertas ao usar Alt + Tab.",
+      "Tokens": [
+        "-HideTabsInAltTab"
+      ],
+      "Padrao": true,
+      "Leve": true,
+      "Risco": false
+    },
+    {
+      "Grupo": "Recursos opcionais",
+      "Titulo": "Ativar a Área Restrita do Windows",
+      "Descricao": "Instala o Windows Sandbox para executar programas em um ambiente isolado. Pode exigir reinicialização.",
+      "Tokens": [
+        "-EnableWindowsSandbox"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    },
+    {
+      "Grupo": "Recursos opcionais",
+      "Titulo": "Ativar Subsistema do Windows para Linux",
+      "Descricao": "Ativa os componentes necessários para executar distribuições Linux. Pode exigir reinicialização.",
+      "Tokens": [
+        "-EnableWindowsSubsystemForLinux"
+      ],
+      "Padrao": false,
+      "Leve": false,
+      "Risco": false
+    }
+  ]
+}
